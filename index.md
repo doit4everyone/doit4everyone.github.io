@@ -1,61 +1,24 @@
+DoIt4Everyone
+
+Guides techniques & Retours de lab pour PME
+Ce portail centralise des procédures techniques actionnables, issues de tests en environnement réel, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
+Chaque guide est conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
 ---
-title: Guides Microsoft 365 – Sécurité & Conformité
-description: Guides techniques indépendants sur Microsoft 365, Purview et Copilot, orientés conformité nLPD pour PME suisses.
+✅ Guides disponibles
+🔐 Configuration Microsoft Purview 2026
+Conformité nLPD & gouvernance Copilot en environnement PME suisse 🇨🇭
+DLP, classification, auto-labelling, gouvernance Copilot — sans licence E5.
+> *La sécurité et la conformité ne sont pas des problèmes de licence,*
+> *mais des problèmes d'architecture et de gouvernance.*
 ---
-
-# Guides Microsoft 365 – Sécurité & Conformité
-## Documentation technique pour PME suisses 🇨🇭
-
-Cette page centralise mes **guides techniques publics**, basés sur des
-tests terrain et destinés aux **PME suisses** utilisant Microsoft 365.
-
-L’approche est :
-- pragmatique,
-- orientée architecture,
-- sans raccourci marketing,
-- compatible avec les exigences de la **nLPD suisse**.
-
+🛠️ Travaux en cours
+De nouvelles ressources seront publiées au fil des tests de lab et des études, couvrant progressivement l'ensemble des domaines de la sécurité et de l'infrastructure des SI.
+📌 À venir
+Shadow AI & Microsoft 365 : détection, blocage et gouvernance des usages IA non maîtrisés en environnement PME.
 ---
-
-## 📘 Guides disponibles
-
-### 🔐 Configuration Microsoft Purview (2026)
-**Conformité nLPD & gouvernance Copilot – Business Premium**
-
-- Protection des données SharePoint & OneDrive
-- Gouvernance de Microsoft 365 Copilot
-- DLP, audit, classification, auto‑labelling
-- Tenant de test (POC) + fichiers de démonstration
-- Sans licence Microsoft 365 E5
-
-### 🔐 Configuration Microsoft Purview (2026)
-
-👉 [📄 Page du guide (présentation)](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)  
-👉 [📦 Dépôt GitHub (documentation complète)](https://github.com/doit4everyone/microsoft-purview-configuration-2026-nLPD)
-
-
-## 🧭 Philosophie
-
-> *La sécurité et la conformité ne sont pas des problèmes de licence,  
-> mais des problèmes d’architecture et de gouvernance.*
-
+☕ Soutenir le projet
+Ces guides représentent des dizaines d'heures de tests en environnement réel et des frais fixes de licences et d'infrastructure.
+Si ces ressources vous font gagner du temps :
+👉 **[Contribuer aux frais de lab sur Ko‑fi](https://ko-fi.com/doit4everyone)**
 ---
-
-## 📌 À venir
-
-Un **guide dédié au Shadow AI et à Entra ID P2**
-
-
-## ℹ️ Transparence
-
-Contenu assisté par IA (références et structuration),
-avec **validation humaine finale**.
-
-
-## ☕ Soutenir ce travail
-La rédaction de ces procédures techniques et la réalisation des tests en environnement réel (POC) représentent des dizaines d'heures de travail et des frais fixes de licences Microsoft 365.
-
-Si ces guides vous sont utiles ou vous font gagner du temps dans vos déploiements :
-👉 **[Offrir un café ou contribuer aux frais de lab sur Ko-fi](https://ko-fi.com/doit4everyone)**
-
-Merci pour votre soutien !
+ℹ️ Références, structuration et aide à la rédaction assistées par IA, avec validation humaine finale.

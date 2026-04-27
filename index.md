@@ -1,5 +1,5 @@
 # DoIt4Everyone
-**Guides techniques & Retours de lab pour PME**
+**Guides techniques & Retours de lab pour PME Suisse**
 
 Ce portail centralise des **procédures techniques actionnables**, issues de tests en environnement réel, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
 
@@ -9,7 +9,7 @@ Chaque guide sera conçu pour être déployé en autonomie, sans dépendre syst�
 
 **[🔐 Configuration Microsoft Purview 2026](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)**
 
-Conformité nLPD & gouvernance Copilot en environnement PME suisse 🇨🇭
+Conformité nLPD & gouvernance Copilot en environnement PME Suisse
 
 *DLP, classification, auto-labelling, gouvernance Copilot — sans licence E5.*
 

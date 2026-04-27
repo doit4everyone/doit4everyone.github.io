@@ -28,13 +28,10 @@ L’approche est :
 - Tenant de test (POC) + fichiers de démonstration
 - Sans licence Microsoft 365 E5
 
-👉 Page du guide  
-https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/
+🔗 **Liens**
+- 👉 [Page du guide](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)
+- 👉 [Dépôt GitHub](https://github.com/doit4everyone/microsoft-purview-configuration-2026-nLPD)
 
-👉 Dépôt GitHub  
-https://github.com/doit4everyone/microsoft-purview-configuration-2026-nLPD
-
----
 
 ## 🧭 Philosophie
 

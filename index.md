@@ -51,6 +51,6 @@ avec **validation humaine finale**.
 La rédaction de ces procédures techniques et la réalisation des tests en environnement réel (POC) représentent des dizaines d'heures de travail et des frais fixes de licences Microsoft 365.
 
 Si ces guides vous sont utiles ou vous font gagner du temps dans vos déploiements :
-👉 **[Offrir un café ou contribuer aux frais de lab sur Ko-fi] (https://ko-fi.com/doit4everyone)**
+👉 **[Offrir un café ou contribuer aux frais de lab sur Ko-fi](https://ko-fi.com/doit4everyone)**
 
 Merci pour votre soutien !

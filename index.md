@@ -1,24 +1,35 @@
-DoIt4Everyone
+# DoIt4Everyone
+**Guides techniques & Retours de lab pour PME**
 
-Guides techniques & Retours de lab pour PME
-Ce portail centralise des procédures techniques actionnables, issues de tests en environnement réel, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
+Ce portail centralise des **procédures techniques actionnables**, issues de tests en environnement réel, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
+
 Chaque guide est conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
----
-✅ Guides disponibles
-🔐 Configuration Microsoft Purview 2026
+
+## ✅ Guides disponibles
+
+**[🔐 Configuration Microsoft Purview 2026](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)**
+
 Conformité nLPD & gouvernance Copilot en environnement PME suisse 🇨🇭
-DLP, classification, auto-labelling, gouvernance Copilot — sans licence E5.
-> *La sécurité et la conformité ne sont pas des problèmes de licence,*
-> *mais des problèmes d'architecture et de gouvernance.*
----
-🛠️ Travaux en cours
+
+*DLP, classification, auto-labelling, gouvernance Copilot — sans licence E5.*
+
+> *La sécurité et la conformité ne sont pas des problèmes de licence, mais des problèmes d'architecture et de gouvernance.*
+
+## 🛠️ Travaux en cours
+
 De nouvelles ressources seront publiées au fil des tests de lab et des études, couvrant progressivement l'ensemble des domaines de la sécurité et de l'infrastructure des SI.
-📌 À venir
-Shadow AI & Microsoft 365 : détection, blocage et gouvernance des usages IA non maîtrisés en environnement PME.
----
-☕ Soutenir le projet
+
+## 📌 À venir
+
+**Shadow AI & Microsoft 365** : détection, blocage et gouvernance des usages IA non maîtrisés en environnement PME.
+
+## ☕ Soutenir le projet
+
 Ces guides représentent des dizaines d'heures de tests en environnement réel et des frais fixes de licences et d'infrastructure.
+
 Si ces ressources vous font gagner du temps :
-👉 **[Contribuer aux frais de lab sur Ko‑fi](https://ko-fi.com/doit4everyone)**
+👉 **[Contribuer aux frais de lab sur Ko-fi](https://ko-fi.com/doit4everyone)**
+
 ---
-ℹ️ Références, structuration et aide à la rédaction assistées par IA, avec validation humaine finale.
+
+ℹ️ *Références, structuration et aide à la rédaction assistées par IA, avec validation humaine finale.*

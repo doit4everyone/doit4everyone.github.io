@@ -41,6 +41,11 @@ L’approche est :
 
 ---
 
+## 📌 À venir
+
+Un **guide dédié au Shadow AI et à Entra ID P2**
+
+
 ## ℹ️ Transparence
 
 Contenu assisté par IA (références et structuration),

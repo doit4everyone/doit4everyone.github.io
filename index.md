@@ -3,7 +3,7 @@
 
 Ce portail centralise des **procédures techniques actionnables**, issues de tests en environnement réel, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
 
-Chaque guide est conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
+Chaque guide sera conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
 
 ## ✅ Guides disponibles
 
@@ -17,7 +17,7 @@ Conformité nLPD & gouvernance Copilot en environnement PME suisse 🇨🇭
 
 ## 🛠️ Travaux en cours
 
-De nouvelles ressources seront publiées au fil des tests de lab et des études, couvrant progressivement l'ensemble des domaines de la sécurité et de l'infrastructure des SI.
+De nouvelles ressources seront publiées au fil des tests de lab et des études, sur des sujets variés liés à la sécurité et à l'infrastructure des SI.
 
 ## 📌 À venir
 

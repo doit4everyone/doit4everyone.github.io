@@ -1,8 +1,8 @@
-<div align="center">
+
 
 # DoIt4Everyone
 
-</div>
+
   
 **Guides techniques & Retours de lab pour PME Suisse**
 

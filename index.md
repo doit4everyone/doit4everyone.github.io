@@ -1,10 +1,14 @@
-<center>
+<div align="center">
 
 # DoIt4Everyone
 
-<center>
+</div>
+
+<div align="center">
   
 **Guides techniques & Retours de lab pour PME Suisse**
+
+</div>
 
 Ce portail centralise des **procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
 

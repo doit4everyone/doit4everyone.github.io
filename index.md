@@ -2,6 +2,11 @@
 title: ""
 ---
 
+<style>
+header { display: none !important; }
+footer { display: none !important; }
+</style>
+
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 
 **Guides techniques & Retours de lab pour PME Suisse**

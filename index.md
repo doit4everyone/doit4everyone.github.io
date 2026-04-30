@@ -1,12 +1,10 @@
-
+---
+title: ""
+---
 
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 
-
-  
 **Guides techniques & Retours de lab pour PME Suisse**
-
-
 
 Ce portail centralise des **procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
 
@@ -34,7 +32,7 @@ De nouvelles ressources seront publiées au fil des tests de lab et des études,
 
 Ces guides représentent des dizaines d'heures de tests en environnements réels, des frais fixes de licences et d'infrastructure.
 
-Si ces ressources vous font gagner du temps vous pouvez contribuer à l'avancée de mes recherhes que je partagerai. Merci. 
+Si ces ressources vous font gagner du temps vous pouvez contribuer à l'avancée de mes recherhes que je partagerai. Merci.
 👉 **[Contribuer aux frais de lab sur Ko-fi](https://ko-fi.com/doit4everyone)**
 
 ---

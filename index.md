@@ -17,6 +17,8 @@ Chaque guide sera conçu pour être déployé en autonomie, sans dépendre syst�
 
 ## ✅ Guides disponibles
 
+<h2 style="text-align: center;"><strong>Procédure de configuration de Microsoft Purview en français pour PME suisses.</strong></h2>
+
 **[🔐 Configuration Microsoft Purview 2026](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)**
 
 Conformité nLPD & gouvernance Copilot en environnement PME Suisse

@@ -4,6 +4,11 @@ description: "Procédures techniques actionnables pour PME Suisse : Microsoft Pu
 lang: fr
 ---
 
+<style>
+header.site-header { display: none !important; }
+footer.site-footer { display: none !important; }
+</style>
+
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 
 **Guides techniques & Retours de lab pour PME Suisse**

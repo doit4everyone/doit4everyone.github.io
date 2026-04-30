@@ -1,13 +1,6 @@
 ---
-title: "DoIt4Everyone - Guides techniques & sécurité pour PME Suisse"
-description: "Procédures techniques actionnables pour PME Suisse : Microsoft Purview, DLP, nLPD, Shadow AI, infrastructure et sécurité des systèmes d'information."
-lang: fr
+title: ""
 ---
-
-<style>
-header.site-header { display: none !important; }
-footer.site-footer { display: none !important; }
-</style>
 
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 

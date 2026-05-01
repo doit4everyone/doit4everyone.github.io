@@ -43,7 +43,8 @@ De nouvelles ressources seront publiées au fil des tests de lab et des études,
 Ces guides représentent des dizaines d'heures de tests en environnements réels, des frais fixes de licences et d'infrastructure.
 
 Si ces ressources vous font gagner du temps vous pouvez contribuer à l'avancée de mes travaux de lab que je partagerai ici. Merci.
- 👉    [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R31YHNIB)
+
+👉    [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R31YHNIB)
 
 ---
 

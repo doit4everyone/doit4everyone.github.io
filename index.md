@@ -39,7 +39,7 @@ De nouvelles ressources seront publiées au fil des tests de lab et des études,
 
 Ces guides représentent des dizaines d'heures de tests en environnements réels, des frais fixes de licences et d'infrastructure.
 
-Si ces ressources vous font gagner du temps vous pouvez contribuer à l'avancée de mes recherches que je partagerai. Merci.
+Si ces ressources vous font gagner du temps vous pouvez contribuer à l'avancée de mes travaux de lab que je partagerai ici. Merci.
 👉 **[Contribuer aux frais de lab sur Ko-fi](https://ko-fi.com/doit4everyone)**
 
 ---

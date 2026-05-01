@@ -9,9 +9,9 @@ footer { display: none !important; }
 
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 
-<h2 style="text-align: center;"><strong>Guides techniques & Retours de lab pour PME Suisse</strong></h2>
+<h2 style="text-align: center;"><strong>Documentation technique & Guides de lab pour PME Suisse</strong></h2>
 
-Ce portail centralise des **procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
+Ce portail centralise des **documentations technique et des procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
 
 Chaque guide sera conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
 

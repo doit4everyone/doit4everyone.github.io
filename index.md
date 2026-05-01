@@ -45,6 +45,8 @@ Ces guides représentent des dizaines d'heures de tests en environnements réels
 Si ces ressources vous font gagner du temps vous pouvez contribuer à l'avancée de mes travaux de lab que je partagerai ici. Merci.
 👉 **[Contribuer aux frais de lab sur Ko-fi](https://ko-fi.com/doit4everyone)**
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R31YHNIB)
+
 ---
 
 ℹ️ *Références, structuration et aide à la rédaction assistées par IA, avec validation humaine finale.*

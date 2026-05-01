@@ -11,7 +11,7 @@ footer { display: none !important; }
 
 <h2 style="text-align: center;"><strong>Documentation technique & Guides de lab pour PME Suisse</strong></h2>
 
-Ce portail centralise des **documentations technique et des procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
+Ce portail centralise des **documentations techniques et des procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
 
 Chaque guide sera conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
 

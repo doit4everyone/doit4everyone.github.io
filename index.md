@@ -1,11 +1,14 @@
----
-title: ""
----
+<head>
+  <title>DoIt4Everyone - Documentation technique Microsoft 365 & Purview pour PME Suisse</title>
+  <meta name="description" content="Documentation technique gratuite pour PME suisses : Microsoft Purview, conformité nLPD, gouvernance Copilot, sécurité Microsoft 365.">
+</head
+
 
 <style>
 header { display: none !important; }
 footer { display: none !important; }
 </style>
+
 
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 

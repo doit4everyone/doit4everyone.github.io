@@ -1,3 +1,11 @@
-title: DoIt4Everyone - Guides techniques et sécurité pour PME Suisse
-description: Procédures techniques actionnables pour PME Suisse - Microsoft Purview, DLP, nLPD, Shadow AI, infrastructure et sécurité des systèmes d'information.
-theme: minima
+title: "DoIt4Everyone - Documentation technique Microsoft 365 & Purview pour PME Suisse"
+description: "Documentation technique gratuite pour PME suisses : Microsoft Purview, conformité nLPD, gouvernance Copilot, sécurité Microsoft 365."
+url: "https://doit4everyone.github.io"
+baseurl: ""
+
+# On utilise le thème très léger de GitHub au lieu de "minima"
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

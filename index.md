@@ -4,20 +4,10 @@ description: "Documentation technique gratuite pour PME suisses : Microsoft Purv
 ---
 
 <style>
-  /* Masque le bloc titre/description généré par le thème */
-  header, .page-header, #banner { 
-    display: none !important; 
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  /* Centre et nettoie la zone de texte */
-  section { 
-    padding: 20px !important; 
-    max-width: 900px !important; 
-    margin: 0 auto !important; 
-  }
+  /* Cette partie est cruciale pour masquer le titre automatique du thème */
+  header { display: none !important; }
+  section { padding-top: 0 !important; }
+  .wrapper { max-width: 900px; margin: 0 auto; }
 </style>
 
 

@@ -5,8 +5,17 @@ description: "Documentation technique gratuite pour PME suisses : Microsoft Purv
 
 
 <style>
-header { display: none !important; }
-footer { display: none !important; }
+  /* On cache TOUS les éléments automatiques du thème GitHub */
+  header, .page-header, .site-header, footer, .site-footer { 
+    display: none !important; 
+  }
+  
+  /* On s'assure que le contenu prend toute la largeur et n'est pas décalé */
+  .main-content, .wrapper, section { 
+    max-width: 100% !important; 
+    margin: 0 !important; 
+    padding: 20px !important; 
+  }
 </style>
 
 

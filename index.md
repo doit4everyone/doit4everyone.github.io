@@ -4,10 +4,14 @@ description: "Documentation technique gratuite pour PME suisses : Microsoft Purv
 ---
 
 <style>
-  /* Cette partie est cruciale pour masquer le titre automatique du thème */
+  /* Cache l'en-tête du thème jekyll-theme-minimal */
   header { display: none !important; }
+  /* Centre le contenu de la page */
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
   section { padding-top: 0 !important; }
-  .wrapper { max-width: 900px; margin: 0 auto; }
 </style>
 
 

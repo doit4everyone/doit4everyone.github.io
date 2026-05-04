@@ -3,18 +3,20 @@ title: "DoIt4Everyone - Documentation technique Microsoft 365 & Purview pour PME
 description: "Documentation technique gratuite pour PME suisses : Microsoft Purview, conformité nLPD, gouvernance Copilot, sécurité Microsoft 365."
 ---
 
-
 <style>
-  /* On cache TOUS les éléments automatiques du thème GitHub */
-  header, .page-header, .site-header, footer, .site-footer { 
+  /* Masque le bloc titre/description généré par le thème */
+  header, .page-header, #banner { 
     display: none !important; 
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  
-  /* On s'assure que le contenu prend toute la largeur et n'est pas décalé */
-  .main-content, .wrapper, section { 
-    max-width: 100% !important; 
-    margin: 0 !important; 
+  /* Centre et nettoie la zone de texte */
+  section { 
     padding: 20px !important; 
+    max-width: 900px !important; 
+    margin: 0 auto !important; 
   }
 </style>
 

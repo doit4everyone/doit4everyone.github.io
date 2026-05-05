@@ -11,6 +11,7 @@ description: "Documentation technique gratuite pour PME suisses : Microsoft Purv
     max-width: 900px;
     margin: 0 auto;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.1em !important;
   }
   section { padding-top: 0 !important; }
 </style>

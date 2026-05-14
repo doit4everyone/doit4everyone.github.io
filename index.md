@@ -44,7 +44,7 @@ Chaque guide est conçu pour être déployé en autonomie, sans dépendre systé
 
 ## ✅ Guides disponibles
 
-### 🛡️ Microsoft Purview & nLPD Suisse
+### 🛡️ Microsoft Purview, gouvernance & nLPD Suisse
 
 **[🔐 Configuration Microsoft Purview 2026](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)**
 *Procédure de configuration complète de Microsoft Purview pour PME suisses.*

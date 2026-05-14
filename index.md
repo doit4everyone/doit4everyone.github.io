@@ -52,7 +52,6 @@ Chaque guide est conçu pour être déployé en autonomie, sans dépendre systé
 DLP, classification, auto-labelling, gouvernance Copilot, DSPM for AI — sans licence E5.
 
 **En bonus:**
-
     Une procédure de préparation du tenant pour le POC.
     Des fichiers de démonstration, société Axonix SA (données fictives).
 

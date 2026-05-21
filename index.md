@@ -69,6 +69,17 @@ Inclut des adaptations sectorielles pour fiduciaires, architectes, avocats, agen
 
 ---
 
+## 🔐 Sécurité & SIEM — Lab
+
+**[🛡️ UTMStack Lab v11.2.8 — Guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
+
+Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch et automatisation SOAR.
+
+**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec.
+> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence ThreatWinds et géolocalisation des attaquants.*
+
+---
+
 ## 🛠️ Travaux en cours
 
 De nouvelles ressources seront publiées au fil des tests de lab et des études, sur des sujets variés liés à la sécurité et à l'infrastructure des SI.

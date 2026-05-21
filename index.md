@@ -79,7 +79,7 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence ThreatWinds et géolocalisation des attaquants.*
 
 ## ⚠️ Projet en cours de documentation
-Ce lab représente plusieurs semaines de travail terrain. La documentation est publiée progressivement, au fil du temps disponible. Les guides déjà disponibles sont opérationnels et testés en environnement réel.
+Ce lab représente plusieurs semaines de travail terrain. La documentation sera publiée progressivement, au fil du temps disponible. Les guides déjà disponibles sont opérationnels et testés en environnement réel.
 
 ---
 

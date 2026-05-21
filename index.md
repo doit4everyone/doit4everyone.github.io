@@ -78,7 +78,8 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 **En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec.
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence ThreatWinds et géolocalisation des attaquants.*
 
-⚠️ **Projet en cours de documentation** — Ce lab représente plusieurs semaines de travail terrain. La documentation est publiée progressivement, au fil du temps disponible. Les guides déjà disponibles sont opérationnels et testés en environnement réel.
+## ⚠️ **Projet en cours de documentation**
+Ce lab représente plusieurs semaines de travail terrain. La documentation est publiée progressivement, au fil du temps disponible. Les guides déjà disponibles sont opérationnels et testés en environnement réel.
 
 ---
 

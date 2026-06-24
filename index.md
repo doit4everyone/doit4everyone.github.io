@@ -75,7 +75,7 @@ Inclut des adaptations sectorielles pour fiduciaires, architectes, avocats, agen
 
 Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch et automatisation SOAR.
 
-**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec.
+**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025).
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence ThreatWinds et géolocalisation des attaquants.*
 
 ## ⚠️ Projet en cours de documentation

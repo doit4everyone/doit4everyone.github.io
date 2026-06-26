@@ -1,6 +1,6 @@
 ---
-title: "DoIt4Everyone - Documentation et procédure technique Microsoft 365 & Purview pour PME Suisse"
-description: "Documentation et procédure technique gratuite pour PME suisses : Microsoft Purview, conformité nLPD, gouvernance Copilot, sécurité Microsoft 365."
+title: "DoIt4Everyone - Documentation et procédures : Shadow AI, Microsoft Purview, UTMStack pour PME Suisse"
+description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM."
 ---
 
 <style>
@@ -60,6 +60,19 @@ DLP, classification, auto-labelling, gouvernance Copilot, DSPM for AI — sans l
 
 <br>
 
+**[🛡️ Gouvernance Shadow AI — Microsoft 365](https://doit4everyone.github.io/shadow-ai-governance-microsoft-365-nLPD/)**
+*Guide complet de détection, blocage et gouvernance des usages IA non maîtrisés pour PME suisses.*
+
+MDCA, Purview DLP, DLP inline Edge for Business, DSPM for AI, Insider Risk Management, gouvernance Power Platform — conformité nLPD (art. 5, 6, 8, 9, 16, 19, 24, 62).
+
+**En bonus :**
+    Matrice des angles morts avec couverture et efficacité estimée par vecteur.
+    Chronologie de déploiement en 4 semaines sans interruption de service.
+
+> *Cette architecture reflète un niveau de contrôle réaliste basé sur les capacités actuelles de Microsoft 365, et non une couverture exhaustive du Shadow AI.*
+
+<br>
+
 **[⚡ Guide MVC Microsoft Purview 2026](https://doit4everyone.github.io/Configuration-Purview-PME-Suisse-nLPD/)**
 *Procédure de déploiement Minimum Viable de Conformité (MVC) pour PME suisses.*
 
@@ -86,10 +99,6 @@ Ce lab représente plusieurs semaines de travail terrain. La documentation sera 
 ## 🛠️ Travaux en cours
 
 De nouvelles ressources seront publiées au fil des tests de lab et des études, sur des sujets variés liés à la sécurité et à l'infrastructure des SI.
-
-## 📌 À venir
-
-**Shadow AI & Microsoft 365** : détection, blocages et gouvernance des usages IA non maîtrisés en environnement PME.
 
 ---
 

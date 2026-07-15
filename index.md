@@ -96,6 +96,18 @@ Ce lab représente plusieurs semaines de travail terrain. La documentation sera 
 
 ---
 
+## 🧩 Tips & Notes techniques
+
+**[🔓 Tips & Notes techniques — Lab](https://doit4everyone.github.io/tips-lab/)** *Correctifs et retours d'expérience ponctuels, issus de tests en environnement réel.*
+
+Des blocages rencontrés en laboratoire, leurs causes réelles, les solutions qui fonctionnent — sans détour théorique. Rubrique courte, alimentée au fil des découvertes de terrain.
+
+**Premier tip :** [🔓 VMware Workstation bloqué par VBS/UEFI](https://doit4everyone.github.io/tips-lab/docs/01-vmware-vbs-uefi.html) — débloquer la virtualisation imbriquée sur un PC Secured-core récent.
+
+> *Contrairement aux guides complets ci-dessus, ces notes n'ont pas de roadmap : une page, un problème, une solution testée.*
+
+---
+
 ## 🛠️ Travaux en cours
 
 De nouvelles ressources seront publiées au fil des tests de lab et des études, sur des sujets variés liés à la sécurité et à l'infrastructure des SI.

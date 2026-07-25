@@ -88,7 +88,7 @@ Inclut des adaptations sectorielles pour fiduciaires, architectes, avocats, agen
 
 Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch et automatisation SOAR.
 
-**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025).
+**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). **[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions et pourquoi un LLM local seul ne suffit pas pour un SOC.
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence ThreatWinds et géolocalisation des attaquants.*
 
 ## ⚠️ Projet en cours de documentation

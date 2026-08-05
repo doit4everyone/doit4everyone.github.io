@@ -84,12 +84,15 @@ Inclut des adaptations sectorielles pour fiduciaires, architectes, avocats, agen
 
 ## 🔐 Sécurité & SIEM — Lab
 
-**[🛡️ UTMStack Lab v11.2.8 — Guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
+**[🛡️ UTMStack Lab v11.2.12 — Guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
 
 Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch et automatisation SOAR.
 
 **En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). **[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions et pourquoi un LLM local seul ne suffit pas pour un SOC.
-> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence ThreatWinds et géolocalisation des attaquants.*
+
+🆕 **[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** — Agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif. **[Bibliothèque de règles de corrélation custom](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)** (9 règles YAML Defender & O365) avec tuning des faux positifs documenté.
+
+> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et géolocalisation des attaquants — intégrations Microsoft 365 et Azure incluses.*
 
 ## ⚠️ Projet en cours de documentation
 Ce lab représente plusieurs semaines de travail terrain. La documentation sera publiée progressivement, au fil du temps disponible. Les guides déjà disponibles sont opérationnels et testés en environnement réel.

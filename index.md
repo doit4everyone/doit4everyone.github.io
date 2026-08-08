@@ -92,6 +92,8 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 🆕 **[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** — Agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif. **[Bibliothèque de règles de corrélation custom](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)** (9 règles YAML Defender & O365) avec tuning des faux positifs documenté.
 
+🆕 **[Sysmon v15.21 — Déploiement et configuration](https://doit4everyone.github.io/utmstack-lab/docs/10-sysmon.html)** — Deux configurations XML (postes et DC), méthode registre ANSSI, collecte via Windows Event Forwarding self-subscription locale vers UTMStack. Limitation documentée sur Windows 11, ticket ouvert chez UTMStack. **[Configurations XML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/configs/sysmon)**.
+
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et géolocalisation des attaquants — intégrations Microsoft 365 et Azure incluses.*
 
 ## ⚠️ Projet en cours de documentation

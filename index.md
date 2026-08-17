@@ -86,18 +86,20 @@ Inclut des adaptations sectorielles pour fiduciaires, architectes, avocats, agen
 
 **[🛡️ UTMStack Lab v11.2.12 — Guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
 
-Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch et automatisation SOAR.
+Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch, automatisation SOAR, agents Windows/Linux, Microsoft 365 et Azure.
 
-**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). **[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions et pourquoi un LLM local seul ne suffit pas pour un SOC.
+**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). **[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions.
 
-🆕 **[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** — Agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif. **[Bibliothèque de règles de corrélation custom](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)** (9 règles YAML Defender & O365) avec tuning des faux positifs documenté.
+**[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** — Agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif.
 
-🆕 **[Sysmon v15.21 — Déploiement et configuration](https://doit4everyone.github.io/utmstack-lab/docs/10-sysmon.html)** — Deux configurations XML (postes et DC), méthode registre ANSSI, collecte via Windows Event Forwarding self-subscription locale vers UTMStack. Limitation documentée sur Windows 11, ticket ouvert chez UTMStack. **[Configurations XML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/configs/sysmon)**.
+**[Sysmon v15.21 — Déploiement et configuration](https://doit4everyone.github.io/utmstack-lab/docs/10-sysmon.html)** — Deux configurations XML (postes et DC), méthode registre ANSSI, collecte via Windows Event Forwarding self-subscription locale vers UTMStack.
 
-> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et géolocalisation des attaquants — intégrations Microsoft 365 et Azure incluses.*
+🆕 **[Règles de corrélation YAML — Chapitre 11](https://doit4everyone.github.io/utmstack-lab/docs/11-correlations-yaml.html)** — 38 règles custom validées en live dans OpenSearch. Séries W (Windows natif), WD (Windows Defender), S (Sysmon via WEF), L (Linux auditd), M (Microsoft 365/Entra ID) et A (Azure Activity Log). 28 techniques MITRE ATT&CK couvertes. Les limites du moteur UTMStack v11 sont documentées honnêtement — avec leurs alternatives. **[Bibliothèque de règles YAML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)**.
+
+> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et enrichissement GeoIP des adresses source — intégrations Microsoft 365 et Azure incluses.*
 
 ## ⚠️ Projet en cours de documentation
-Ce lab représente plusieurs semaines de travail terrain. La documentation sera publiée progressivement, au fil du temps disponible. Les guides déjà disponibles sont opérationnels et testés en environnement réel.
+La documentation est publiée progressivement, au fil du temps disponible. Les guides disponibles sont opérationnels et testés en environnement réel. Les prochains chapitres couvriront le SOAR & Incident Response et les exercices Red Team / validation Kali.
 
 ---
 
@@ -121,7 +123,7 @@ De nouvelles ressources seront publiées au fil des tests de lab et des études,
 
 ## ☕ Soutenir le projet
 
-Ces guides représentent des dizaines d'heures de tests en environnements réels, des frais fixes de licences et d'infrastructure. 
+Ces guides représentent des centaines d'heures de tests en environnements réels, des frais fixes de licences et d'infrastructure. 
 
 Si ces ressources vous font gagner du temps, vous pouvez contribuer à l'avancée de mes travaux de lab. Merci.
 

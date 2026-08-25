@@ -1,6 +1,6 @@
 ---
 title: "DoIt4Everyone - Documentation et procédures : Shadow AI, Microsoft Purview, UTMStack pour PME Suisse"
-description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM."
+description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM, AiTM protection WHfB FIDO2."
 ---
 
 <style>
@@ -76,6 +76,23 @@ Inclut les procédures de déploiement (consultant) et les guides d'exploitation
 
 ---
 
+## 🔐 Sécurité & Durcissement
+
+🆕 **[AiTM / Cookie Hijacking M365 — Détection, mitigation et protection structurelle](https://doit4everyone.github.io/mvc-nlpd-m365/aitm-cookie-hijacking/)**
+*Guide technique autonome — Microsoft 365 Business Premium — v1.0 — Août 2026*
+
+Rédigé suite à la divulgation de Mirage2FA (PhaaS AiTM, 20 août 2026) et de CVE-2026-69836 (RCE CVSS 10.0 dans Entra ID, 21 août 2026).
+
+**Partie A — actionnable immédiatement :** CAE, détection des IoC, corrélation SIEM (UTMStack), séquence de réponse à incident, audit rétrospectif post-CVE.
+
+**Partie B — protection structurelle :** Windows Hello for Business par TPM, Cloud Kerberos Trust, AzureADKerberos, CA Authentication Strength (Phishing-resistant MFA), audit des applications legacy, FIDO2 hardware pour comptes à privilèges.
+
+Validé terrain sur infrastructure hybride (Entra Connect + AD on-prem + WS2025) — août 2026.
+
+> *Ce document couvre des nuances rarement documentées : le paradoxe CAE (token de 28h vs révocation temps réel), les restrictions WHfB sur les comptes hybrides privilégiés depuis juin 2026, et la différence réelle entre mitigation et protection structurelle contre AiTM.*
+
+---
+
 ## 🔐 Sécurité & SIEM — Lab
 
 **[🛡️ UTMStack Lab v11.2.12 — Guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
@@ -95,8 +112,6 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 ## ⚠️ Projet en cours de documentation
 
 La documentation est publiée progressivement, au fil du temps disponible. Les guides disponibles sont opérationnels et testés en environnement réel. Les prochains chapitres couvriront le SOAR & Incident Response et les exercices Red Team / validation Kali.
-
-🆕 **[AiTM / Cookie Hijacking — Détection et mitigation](https://doit4everyone.github.io/mvc-nlpd-m365/aitm-cookie-hijacking/index.html)** — Attaques adversary-in-the-middle contournant le MFA : incidents, IoC, protection structurelle (WHfB, CAE, FIDO2). Publication prochaine dans le bundle MVC nLPD.
 
 ---
 

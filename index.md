@@ -109,6 +109,21 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et enrichissement GeoIP des adresses source — intégrations Microsoft 365 et Azure incluses.*
 
+## 🤖 IA locale pour PME suisse
+
+🆕 **[IA locale pour PME suisse — Guide décisionnel 2026](https://doit4everyone.github.io/ia-locale-pme-suisse/)**
+*RTX Spark, DGX Spark, RTX PRO 6000, cluster HA, H100 : ce qu'il faut savoir avant d'investir.*
+
+25 pages, sources vérifiées. Architectures disponibles en Suisse, TCO réel sur 3 ans, performances d'inférence mesurées, ingénierie RAG et pipeline de production, sécurité et conformité nLPD.
+
+**Inclus :**
+Plan d'apprentissage RAG local — 14 phases, de l'environnement de lab jusqu'aux connecteurs MS 365 et SharePoint Online.
+Procédures opérationnelles publiées progressivement au fil de la validation terrain.
+
+> *Rédigé par synthèse de sources publiques vérifiées, sans dépendance à aucun constructeur, revendeur ou intégrateur cité.*
+
+---
+
 ## ⚠️ Projet en cours de documentation
 
 La documentation est publiée progressivement, au fil du temps disponible. Les guides disponibles sont opérationnels et testés en environnement réel. Les prochains chapitres couvriront le SOAR & Incident Response et les exercices Red Team / validation Kali.

@@ -126,12 +126,6 @@ Procédures opérationnelles publiées progressivement au fil de la validation t
 
 ---
 
-## ⚠️ Projet en cours de documentation
-
-La documentation est publiée progressivement, au fil du temps disponible. Les guides disponibles sont opérationnels et testés en environnement réel. Les prochains chapitres couvriront le SOAR & Incident Response et les exercices Red Team / validation Kali.
-
----
-
 ## 🧩 Tips & Notes techniques
 
 **[🔓 Tips & Notes techniques — Lab](https://doit4everyone.github.io/tips-lab/)** *Correctifs et retours d'expérience ponctuels, issus de tests en environnement réel.*
@@ -144,9 +138,9 @@ Des blocages rencontrés en laboratoire, leurs causes réelles, les solutions qu
 
 ---
 
-## 🛠️ Travaux en cours
+## ⚠️ Documentation publiée progressivement
 
-De nouvelles ressources seront publiées au fil des tests de lab et des études, sur des sujets variés liés à la sécurité et à l'infrastructure des SI.
+Les guides disponibles sont opérationnels et testés en environnement réel. De nouvelles publications sont ajoutées au fil des travaux de lab et des validations terrain, sans calendrier fixe.
 
 ---
 

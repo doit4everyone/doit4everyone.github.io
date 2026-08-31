@@ -109,6 +109,8 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et enrichissement GeoIP des adresses source — intégrations Microsoft 365 et Azure incluses.*
 
+---
+
 ## 🤖 IA locale pour PME suisse
 
 🆕 **[IA locale pour PME suisse — Guide décisionnel 2026](https://doit4everyone.github.io/ia-locale-pme-suisse/)**

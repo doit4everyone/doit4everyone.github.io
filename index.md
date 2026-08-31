@@ -99,7 +99,9 @@ Validé terrain sur infrastructure hybride (Entra Connect + AD on-prem + WS2025)
 
 Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch, automatisation SOAR, agents Windows/Linux, Microsoft 365 et Azure.
 
-**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). **[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions.
+**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). 
+
+**[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions.
 
 **[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** — Agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif.
 

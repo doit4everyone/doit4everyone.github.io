@@ -1,6 +1,11 @@
 ---
-title: "DoIt4Everyone - Documentation et procédures : Shadow AI, Microsoft Purview, UTMStack pour PME Suisse"
-description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM, AiTM protection WHfB FIDO2."
+title: "DoIt4Everyone - Documentation et procédures : Shadow AI, Microsoft Purview, UTMStack, IA locale pour PME Suisse"
+description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM, AiTM protection WHfB FIDO2, pipeline RAG local nLPD-compliant avec cloisonnement ACL NTFS."
+keywords: "Microsoft Purview, Shadow AI, nLPD, UTMStack, RAG local, IA locale, PME suisse, LDAP, Active Directory, Qdrant, Ollama, Docker, FastAPI, cloisonnement documentaire"
+og_title: "DoIt4Everyone — Documentation technique pour PME suisse"
+og_description: "Guides opérationnels testés en lab : Microsoft Purview, Shadow AI, UTMStack SIEM, pipeline RAG local nLPD-compliant. Sans dépendance commerciale."
+og_type: "website"
+lang: "fr"
 ---
 
 <style>
@@ -25,9 +30,9 @@ description: "Guides et procédures techniques gratuits pour PME suisses : gouve
 
 <h1 style="text-align: center;">DoIt4Everyone</h1>
 
-<h2 style="text-align: center;"><strong>Documentation, procédure technique & Guides de lab pour PME Suisse 🇨🇭</strong></h2>
+<h2 style="text-align: center;"><strong>Documentation, procédures techniques & Guides de lab pour PME Suisse 🇨🇭</strong></h2>
 
-Ce portail centralise des **documentations techniques et des procédures techniques actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure et la conformité des systèmes d'information.
+Ce portail centralise des **documentations techniques et des procédures actionnables**, issues de tests en environnements réels, couvrant la sécurité, l'infrastructure, la conformité et l'IA locale des systèmes d'information.
 
 Chaque guide est conçu pour être déployé en autonomie, sans dépendre systématiquement d'intervenants tiers.
 
@@ -99,7 +104,7 @@ Validé terrain sur infrastructure hybride (Entra Connect + AD on-prem + WS2025)
 
 Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch, automatisation SOAR, agents Windows/Linux, Microsoft 365 et Azure.
 
-**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025). 
+**En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025).
 
 **[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions.
 
@@ -107,7 +112,7 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 **[Sysmon v15.21 — Déploiement et configuration](https://doit4everyone.github.io/utmstack-lab/docs/10-sysmon.html)** — Deux configurations XML (postes et DC), méthode registre ANSSI, collecte via Windows Event Forwarding self-subscription locale vers UTMStack.
 
-🆕 **[Règles de corrélation YAML — Chapitre 11](https://doit4everyone.github.io/utmstack-lab/docs/11-correlations-yaml.html)** — 40 règles custom validées en live dans OpenSearch. Séries W (Windows natif), WD (Windows Defender), S (Sysmon via WEF), L (Linux auditd), M (Microsoft 365/Entra ID) et A (Azure Activity Log). 29 techniques MITRE ATT&CK couvertes. Inclut deux règles de détection post-compromission Entra ID (attribution de rôle privilégié, ajout de credentials sur service principal) développées en réponse aux attaques AiTM et à CVE-2026-69836. Les limites du moteur UTMStack v11 sont documentées honnêtement — avec leurs alternatives. **[Bibliothèque de règles YAML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)**.
+🆕 **[Règles de corrélation YAML — Chapitre 11](https://doit4everyone.github.io/utmstack-lab/docs/11-correlations-yaml.html)** — 40 règles custom validées en live dans OpenSearch. Séries W (Windows natif), WD (Windows Defender), S (Sysmon via WEF), L (Linux auditd), M (Microsoft 365/Entra ID) et A (Azure Activity Log). 29 techniques MITRE ATT&CK couvertes. Inclut deux règles de détection post-compromission Entra ID développées en réponse aux attaques AiTM et à CVE-2026-69836. Les limites du moteur UTMStack v11 sont documentées honnêtement. **[Bibliothèque de règles YAML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)**.
 
 > *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et enrichissement GeoIP des adresses source — intégrations Microsoft 365 et Azure incluses.*
 
@@ -120,9 +125,21 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 25 pages, sources vérifiées. Architectures disponibles en Suisse, TCO réel sur 3 ans, performances d'inférence mesurées, ingénierie RAG et pipeline de production, sécurité et conformité nLPD.
 
+🆕 **[Stack RAG locale nLPD-compliant — Guide de déploiement](https://doit4everyone.github.io/ia-locale-pme-suisse/docs/stack-ia-locale/)**
+*Pipeline RAG opérationnel validé en lab sur CPU, sans GPU.*
+
+Un vrai RAG d'entreprise, pas un proof of concept. Cloisonnement documentaire par ACL NTFS propagées jusqu'aux chunks Qdrant, authentification LDAP Active Directory, groundedness check par juge LLM secondaire, journalisation nLPD complète. Formats indexés : `.docx`, `.pdf`, `.pptx`, `.txt`, `.md`.
+
+**Stack :** Open WebUI + RAG API FastAPI + Qdrant + Ollama (qwen2.5:14b) + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS.
+
+**Scripts Python publiés :** `indexer.py`, `acl_resolver.py`, `main.py`, `auth.py` — valeurs sensibles remplacées par des placeholders, prêts à adapter.
+
+**En préparation :** connecteur SharePoint Online avec propagation des permissions Entra ID, pipeline résumé de réunions Teams, indexation des fichiers chiffrés Purview via Azure Key Vault.
+
+> *La stack est opérationnelle sur CPU. Les benchmarks GPU et les connecteurs MS 365 seront publiés après installation du GPU RTX 5060 Ti et validation en lab avec un tenant MS 365 actif.*
+
 **Inclus :**
-Plan d'apprentissage RAG local — 14 phases, de l'environnement de lab jusqu'aux connecteurs MS 365 et SharePoint Online.
-Procédures opérationnelles publiées progressivement au fil de la validation terrain.
+Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 12 phases (PDF, août 2026). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.
 
 > *Rédigé par synthèse de sources publiques vérifiées, sans dépendance à aucun constructeur, revendeur ou intégrateur cité.*
 

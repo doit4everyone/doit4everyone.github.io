@@ -130,7 +130,7 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 Un vrai RAG d'entreprise, pas un proof of concept. Cloisonnement documentaire par ACL NTFS propagées jusqu'aux chunks Qdrant, authentification LDAP Active Directory, groundedness check par juge LLM secondaire, journalisation nLPD complète. Formats indexés : `.docx`, `.pdf`, `.pptx`, `.txt`, `.md`.
 
-**Stack :** Open WebUI + RAG API FastAPI + Qdrant + Ollama (qwen2.5:14b) + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS.
+**Stack :** Open WebUI + RAG API FastAPI + Qdrant + Ollama (qwen2.5:14b) + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS. Retrieval hybride BM25+vectoriel (RRF).
 
 **Scripts Python publiés :** `indexer.py`, `acl_resolver.py`, `main.py`, `auth.py` — valeurs sensibles remplacées par des placeholders, prêts à adapter.
 
@@ -139,7 +139,7 @@ Un vrai RAG d'entreprise, pas un proof of concept. Cloisonnement documentaire pa
 > *La stack est opérationnelle sur CPU. Les benchmarks GPU et les connecteurs MS 365 seront publiés après installation du GPU RTX 5060 Ti et validation en lab avec un tenant MS 365 actif.*
 
 **Inclus :**
-Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 12 phases (PDF, août 2026). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.
+Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 14 phases (PDF, refondu septembre 2026 pour refléter la stack validée en lab). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.
 
 > *Rédigé par synthèse de sources publiques vérifiées, sans dépendance à aucun constructeur, revendeur ou intégrateur cité.*
 

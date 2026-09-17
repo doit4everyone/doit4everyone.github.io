@@ -130,7 +130,7 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 
 Un vrai RAG d'entreprise, pas un proof of concept. Cloisonnement documentaire par ACL NTFS propagées jusqu'aux chunks Qdrant, authentification LDAP Active Directory, groundedness check par juge LLM secondaire, journalisation nLPD complète. Formats indexés : `.docx`, `.pdf`, `.pptx`, `.txt`, `.md`.
 
-**Stack :** Open WebUI + RAG API FastAPI + Qdrant + Ollama (qwen2.5:14b) + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS. Retrieval hybride BM25+vectoriel (RRF).
+**Stack :** Open WebUI + RAG API FastAPI + Qdrant (deux collections : corpus entreprise + documentation) + Ollama (qwen2.5:14b) + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS. Retrieval hybride BM25+vectoriel (RRF), indexation incrémentale.
 
 **Scripts Python publiés :** `indexer.py`, `acl_resolver.py`, `main.py`, `auth.py` — valeurs sensibles remplacées par des placeholders, prêts à adapter.
 

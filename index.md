@@ -139,7 +139,7 @@ Un vrai RAG d'entreprise, pas un proof of concept. Cloisonnement documentaire pa
 > *La stack est opérationnelle sur CPU. Les benchmarks GPU et les connecteurs MS 365 seront publiés après installation du GPU RTX 5060 Ti et validation en lab avec un tenant MS 365 actif.*
 
 **Inclus :**
-Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 14 phases (PDF, refondu septembre 2026 pour refléter la stack validée en lab). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.
+Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 15 phases (PDF, refondu septembre 2026 pour refléter la stack validée en lab). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.
 
 > *Rédigé par synthèse de sources publiques vérifiées, sans dépendance à aucun constructeur, revendeur ou intégrateur cité.*
 

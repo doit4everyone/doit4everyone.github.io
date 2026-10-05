@@ -1,9 +1,9 @@
 ---
 title: "DoIt4Everyone - Documentation et procédures : Shadow AI, Microsoft Purview, UTMStack, IA locale pour PME Suisse"
-description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM, AiTM protection WHfB FIDO2, pipeline RAG local nLPD-compliant avec cloisonnement ACL NTFS."
+description: "Guides et procédures techniques gratuits pour PME suisses : gouvernance Shadow AI Microsoft 365, Microsoft Purview, conformité nLPD, DLP, MDCA, DSPM for AI, UTMStack SIEM, AiTM protection WHfB FIDO2, pipeline RAG local avec cloisonnement des documents (NTFS, SharePoint, Purview)."
 keywords: "Microsoft Purview, Shadow AI, nLPD, UTMStack, RAG local, IA locale, PME suisse, LDAP, Active Directory, Qdrant, Ollama, Docker, FastAPI, cloisonnement documentaire"
-og_title: "DoIt4Everyone — Documentation technique pour PME suisse"
-og_description: "Guides opérationnels testés en lab : Microsoft Purview, Shadow AI, UTMStack SIEM, pipeline RAG local nLPD-compliant. Sans dépendance commerciale."
+og_title: "DoIt4Everyone : documentation technique pour PME suisse"
+og_description: "Guides opérationnels testés en lab : Microsoft Purview, Shadow AI, UTMStack SIEM, pipeline RAG local pour PME suisse. Sans dépendance commerciale."
 og_type: "website"
 lang: "fr"
 ---
@@ -45,7 +45,7 @@ Chaque guide est conçu pour être déployé en autonomie, sans dépendre systé
 **[🔐 Configuration Microsoft Purview 2026](https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/)**
 *Procédure de configuration complète de Microsoft Purview pour PME suisses.*
 
-DLP, classification, auto-labelling, gouvernance Copilot, DSPM for AI — sans licence E5.
+DLP, classification, auto-labelling, gouvernance Copilot, DSPM for AI, sans licence E5.
 
 **En bonus :**
 Une procédure de préparation du tenant pour le POC.
@@ -55,10 +55,10 @@ Des fichiers de démonstration, société Axonix SA (données fictives).
 
 <br>
 
-**[🛡️ Gouvernance Shadow AI — Microsoft 365](https://doit4everyone.github.io/shadow-ai-governance-microsoft-365-nLPD/)**
+**[🛡️ Gouvernance Shadow AI, Microsoft 365](https://doit4everyone.github.io/shadow-ai-governance-microsoft-365-nLPD/)**
 *Guide complet de détection, blocage et gouvernance des usages IA non maîtrisés pour PME suisses.*
 
-MDCA, Purview DLP, DLP inline Edge for Business, DSPM for AI, Insider Risk Management, gouvernance Power Platform — conformité nLPD (art. 5, 6, 8, 9, 16, 19, 24, 62).
+MDCA, Purview DLP, DLP inline Edge for Business, DSPM for AI, Insider Risk Management, gouvernance Power Platform. Conformité nLPD (art. 5, 6, 8, 9, 16, 19, 24, 62).
 
 **En bonus :**
 Matrice des angles morts avec couverture et efficacité estimée par vecteur.
@@ -68,90 +68,92 @@ Chronologie de déploiement en 4 semaines sans interruption de service.
 
 <br>
 
-**[⚡ Bundle MVC nLPD — Microsoft 365 Business Premium](https://doit4everyone.github.io/mvc-nlpd-m365/)**
-*Quatre guides de conformité nLPD pour PME suisses de 5 à 25 utilisateurs — sans licence E3/E5.*
+**[⚡ Bundle MVC nLPD : Microsoft 365 Business Premium](https://doit4everyone.github.io/mvc-nlpd-m365/)**
+*Quatre guides de conformité nLPD pour PME suisses de 5 à 25 utilisateurs, sans licence E3/E5.*
 
-Microsoft Purview · Entra ID P1 · Intune + Defender for Business · Copilot Governance — déploiement Minimum Viable de Conformité (MVC) en 4 sessions sur Business Premium + Purview Suite.
+Microsoft Purview · Entra ID P1 · Intune + Defender for Business · Copilot Governance. Déploiement Minimum Viable de Conformité (MVC) en 4 sessions sur Business Premium + Purview Suite.
 
 Inclut les procédures de déploiement (consultant) et les guides d'exploitation (responsable IT client), avec adaptations sectorielles pour fiduciaires, architectes, avocats, agences de communication et cabinets médicaux.
 
 > *Un socle de conformité nLPD défendable devant le PFPDT, déployable en autonomie sur Business Premium + Purview Suite.*
 
-> ⚠️ *Bundle en cours de rédaction — le guide Purview est publié, les guides Entra ID P1, Intune + Defender et Copilot Governance sont en cours de finalisation.*
+> ⚠️ *Bundle en cours de rédaction : le guide Purview est publié, les guides Entra ID P1, Intune + Defender et Copilot Governance sont en cours de finalisation.*
 
 ---
 
 ## 🔐 Sécurité & Durcissement
 
-🆕 **[AiTM / Cookie Hijacking M365 — Détection, mitigation et protection structurelle](https://doit4everyone.github.io/mvc-nlpd-m365/aitm-cookie-hijacking/)**
-*Guide technique autonome — Microsoft 365 Business Premium — v1.0 — Août 2026*
+**[AiTM / Cookie Hijacking M365 : détection, mitigation et protection structurelle](https://doit4everyone.github.io/mvc-nlpd-m365/aitm-cookie-hijacking/)**
+*Guide technique autonome, Microsoft 365 Business Premium, v1.0, août 2026*
 
 Rédigé suite à la divulgation de Mirage2FA (PhaaS AiTM, 20 août 2026) et de CVE-2026-69836 (RCE CVSS 10.0 dans Entra ID, 21 août 2026).
 
-**Partie A — actionnable immédiatement :** CAE, détection des IoC, corrélation SIEM (UTMStack), séquence de réponse à incident, audit rétrospectif post-CVE.
+**Partie A, actionnable immédiatement :** CAE, détection des IoC, corrélation SIEM (UTMStack), séquence de réponse à incident, audit rétrospectif post-CVE.
 
-**Partie B — protection structurelle :** Windows Hello for Business par TPM, Cloud Kerberos Trust, AzureADKerberos, CA Authentication Strength (Phishing-resistant MFA), audit des applications legacy, FIDO2 hardware pour comptes à privilèges.
+**Partie B, protection structurelle :** Windows Hello for Business par TPM, Cloud Kerberos Trust, AzureADKerberos, CA Authentication Strength (Phishing-resistant MFA), audit des applications legacy, FIDO2 hardware pour comptes à privilèges.
 
-Validé terrain sur infrastructure hybride (Entra Connect + AD on-prem + WS2025) — août 2026.
+Validé terrain sur infrastructure hybride (Entra Connect + AD on-prem + WS2025), août 2026.
 
 > *Ce document couvre des nuances rarement documentées : le paradoxe CAE (token de 28h vs révocation temps réel), les restrictions WHfB sur les comptes hybrides privilégiés depuis juin 2026, et la différence réelle entre mitigation et protection structurelle contre AiTM.*
 
 ---
 
-## 🔐 Sécurité & SIEM — Lab
+## 🔐 Sécurité & SIEM : lab
 
-**[🛡️ UTMStack Lab v11.2.12 — Guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
+**[🛡️ UTMStack Lab v11.2.12 : guide de déploiement](https://doit4everyone.github.io/utmstack-lab/)** *Déploiement complet UTMStack Community Edition pour PME suisses.*
 
 Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards OpenSearch, automatisation SOAR, agents Windows/Linux, Microsoft 365 et Azure.
 
 **En bonus :** Architecture pipeline syslog-ng complète. Règles Suricata custom anti-Mirai. Ban automatique des IPs malveillantes via playbooks SOAR → CrowdSec. Audit NTLM via Windows Event Forwarding en préparation de la migration vers Kerberos (Windows Server 2025).
 
-**[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) — tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions.
+**[Pipeline SOC augmenté par IA locale](https://doit4everyone.github.io/utmstack-lab/docs/09-pipeline-llm.html)** (Ollama, n8n) : tri déterministe, comparatif Llama 3.1 / Qwen 2.5 / Mistral Large, retour d'expérience complet sur 12 versions.
 
-**[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** — Agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif.
+**[Intégrations agents et sources de logs](https://doit4everyone.github.io/utmstack-lab/docs/10-integrations-agents.html)** : agents Windows (5 machines AD) et Linux, Microsoft 365, Azure Event Hub + Event Grid, SOC AI natif.
 
-**[Sysmon v15.21 — Déploiement et configuration](https://doit4everyone.github.io/utmstack-lab/docs/10-sysmon.html)** — Deux configurations XML (postes et DC), méthode registre ANSSI, collecte via Windows Event Forwarding self-subscription locale vers UTMStack.
+**[Sysmon v15.21 : déploiement et configuration](https://doit4everyone.github.io/utmstack-lab/docs/10-sysmon.html)** : deux configurations XML (postes et DC), méthode registre ANSSI, collecte via Windows Event Forwarding self-subscription locale vers UTMStack.
 
-🆕 **[Règles de corrélation YAML — Chapitre 11](https://doit4everyone.github.io/utmstack-lab/docs/11-correlations-yaml.html)** — 40 règles custom validées en live dans OpenSearch. Séries W (Windows natif), WD (Windows Defender), S (Sysmon via WEF), L (Linux auditd), M (Microsoft 365/Entra ID) et A (Azure Activity Log). 29 techniques MITRE ATT&CK couvertes. Inclut deux règles de détection post-compromission Entra ID développées en réponse aux attaques AiTM et à CVE-2026-69836. Les limites du moteur UTMStack v11 sont documentées honnêtement. **[Bibliothèque de règles YAML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)**.
+**[Règles de corrélation YAML, chapitre 11](https://doit4everyone.github.io/utmstack-lab/docs/11-correlations-yaml.html)** : 40 règles custom validées en live dans OpenSearch. Séries W (Windows natif), WD (Windows Defender), S (Sysmon via WEF), L (Linux auditd), M (Microsoft 365/Entra ID) et A (Azure Activity Log). 29 techniques MITRE ATT&CK couvertes. Inclut deux règles de détection post-compromission Entra ID développées en réponse aux attaques AiTM et à CVE-2026-69836. Les limites du moteur UTMStack v11 sont documentées honnêtement. **[Bibliothèque de règles YAML sur GitHub](https://github.com/doit4everyone/utmstack-lab/tree/main/rules)**.
 
-> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et enrichissement GeoIP des adresses source — intégrations Microsoft 365 et Azure incluses.*
+> *Un lab opérationnel de détection et réponse aux menaces, avec corrélation Threat Intelligence et enrichissement GeoIP des adresses source, intégrations Microsoft 365 et Azure incluses.*
 
 ---
 
 ## 🤖 IA locale pour PME suisse
 
-🆕 **[IA locale pour PME suisse — Guide décisionnel 2026](https://doit4everyone.github.io/ia-locale-pme-suisse/)**
+**[IA locale pour PME suisse : guide décisionnel 2026](https://doit4everyone.github.io/ia-locale-pme-suisse/)**
 *RTX Spark, DGX Spark, RTX PRO 6000, cluster HA, H100 : ce qu'il faut savoir avant d'investir.*
 
 25 pages, sources vérifiées. Architectures disponibles en Suisse, TCO réel sur 3 ans, performances d'inférence mesurées, ingénierie RAG et pipeline de production, sécurité et conformité nLPD.
 
-🆕 **[Stack RAG locale nLPD-compliant — Guide de déploiement](https://doit4everyone.github.io/ia-locale-pme-suisse/docs/stack-ia-locale/)**
-*Pipeline RAG opérationnel validé en lab sur CPU, sans GPU.*
+🆕 **[Stack RAG locale : guide de déploiement](https://doit4everyone.github.io/ia-locale-pme-suisse/docs/stack-ia-locale/)**
+*Pipeline RAG d'entreprise validé en lab sur CPU, sans GPU, en trois parties, de §0 à §17.*
 
-Un vrai RAG d'entreprise, pas un proof of concept. Cloisonnement documentaire par ACL NTFS propagées jusqu'aux chunks Qdrant, authentification LDAP Active Directory, groundedness check par juge LLM secondaire, journalisation nLPD complète. Formats indexés : `.docx`, `.pdf`, `.pptx`, `.txt`, `.md`.
+Un vrai RAG d'entreprise, pas un proof of concept. Chaque utilisateur ne retrouve que les documents qu'il a le droit d'ouvrir, qu'ils viennent du serveur de fichiers, de SharePoint Online ou qu'ils soient protégés par Purview. Authentification Active Directory, contrôle d'ancrage des réponses par un juge LLM secondaire, journalisation des requêtes pour la nLPD.
 
-**Stack :** Open WebUI + RAG API FastAPI + Qdrant (deux collections : corpus entreprise + documentation) + Ollama (qwen2.5:14b) + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS. Retrieval hybride BM25+vectoriel (RRF), indexation incrémentale.
+**Parties 1 et 2 :** stack de base, ACL NTFS propagées jusqu'aux extraits indexés, retrieval hybride BM25 + vectoriel, sécurité et durcissement.
 
-**Scripts Python publiés :** `indexer.py`, `acl_resolver.py`, `main.py`, `auth.py` — valeurs sensibles remplacées par des placeholders, prêts à adapter.
+**Partie 3, Microsoft 365 (§11 à §17) :** connexion à Microsoft Graph et groupes Entra ID, synthèse des réunions Teams en brouillon pour l'organisateur, indexation de SharePoint Online avec ses permissions, documents protégés par Purview (déchiffrés localement, accès soumis aux droits SharePoint et aux droits de l'étiquette), sécurité des données, contrôle automatique du cloisonnement après chaque synchronisation, gouvernance.
 
-**En préparation :** connecteur SharePoint Online avec propagation des permissions Entra ID, pipeline résumé de réunions Teams, indexation des fichiers chiffrés Purview via Azure Key Vault.
+**Stack :** Open WebUI + RAG API FastAPI + Qdrant + Ollama + n8n, déployés via Docker Compose sur VM Ubuntu Server 26.04 LTS, versions des images figées. Scripts publiés avec valeurs sensibles remplacées par des placeholders, prêts à adapter.
 
-> *La stack est opérationnelle sur CPU. Les benchmarks GPU et les connecteurs MS 365 seront publiés après installation du GPU RTX 5060 Ti et validation en lab avec un tenant MS 365 actif.*
+> *Une stack technique facilite la conformité à la nLPD, elle ne la garantit pas : la finalité, l'information des collaborateurs et l'analyse d'impact restent de la responsabilité de l'organisation (§17).*
+
+**En préparation :** les mesures sur GPU (RTX 5060 Ti) : comparaison des modèles, embedding multilingue, reranker, performances.
 
 **Inclus :**
 Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 15 phases (PDF, refondu septembre 2026 pour refléter la stack validée en lab). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.
 
-> *Rédigé par synthèse de sources publiques vérifiées, sans dépendance à aucun constructeur, revendeur ou intégrateur cité.*
+> *Le guide décisionnel est rédigé par synthèse de sources publiques vérifiées ; le guide de déploiement, par validation en lab. Aucun des deux ne dépend d'un constructeur, revendeur ou intégrateur cité.*
 
 ---
 
 ## 🧩 Tips & Notes techniques
 
-**[🔓 Tips & Notes techniques — Lab](https://doit4everyone.github.io/tips-lab/)** *Correctifs et retours d'expérience ponctuels, issus de tests en environnement réel.*
+**[🔓 Tips & Notes techniques : lab](https://doit4everyone.github.io/tips-lab/)** *Correctifs et retours d'expérience ponctuels, issus de tests en environnement réel.*
 
-Des blocages rencontrés en laboratoire, leurs causes réelles, les solutions qui fonctionnent — sans détour théorique. Rubrique courte, alimentée au fil des découvertes de terrain.
+Des blocages rencontrés en laboratoire, leurs causes réelles, les solutions qui fonctionnent, sans détour théorique. Rubrique courte, alimentée au fil des découvertes de terrain.
 
-**Premier tip :** [🔓 VMware Workstation bloqué par VBS/UEFI](https://doit4everyone.github.io/tips-lab/docs/01-vmware-vbs-uefi.html) — débloquer la virtualisation imbriquée sur un PC Secured-core récent.
+**Premier tip :** [🔓 VMware Workstation bloqué par VBS/UEFI](https://doit4everyone.github.io/tips-lab/docs/01-vmware-vbs-uefi.html) : débloquer la virtualisation imbriquée sur un PC Secured-core récent.
 
 > *Contrairement aux guides complets ci-dessus, ces notes n'ont pas de roadmap : une page, un problème, une solution testée.*
 

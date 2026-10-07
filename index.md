@@ -126,7 +126,7 @@ Installation VMware, intégration Suricata (OPNsense), CrowdSec, dashboards Open
 25 pages, sources vérifiées. Architectures disponibles en Suisse, TCO réel sur 3 ans, performances d'inférence mesurées, ingénierie RAG et pipeline de production, sécurité et conformité nLPD.
 
 🆕 **[Stack RAG locale : guide de déploiement](https://doit4everyone.github.io/ia-locale-pme-suisse/docs/stack-ia-locale/)**
-*Pipeline RAG d'entreprise validé en lab sur CPU, sans GPU, en trois parties, de §0 à §17.*
+*Pipeline RAG d'entreprise validé en lab sur CPU puis sur GPU, en trois parties, de §0 à §17.*
 
 Un vrai RAG d'entreprise, pas un proof of concept. Chaque utilisateur ne retrouve que les documents qu'il a le droit d'ouvrir, qu'ils viennent du serveur de fichiers, de SharePoint Online ou qu'ils soient protégés par Purview. Authentification Active Directory, contrôle d'ancrage des réponses par un juge LLM secondaire, journalisation des requêtes pour la nLPD.
 
@@ -138,7 +138,7 @@ Un vrai RAG d'entreprise, pas un proof of concept. Chaque utilisateur ne retrouv
 
 > *Une stack technique facilite la conformité à la nLPD, elle ne la garantit pas : la finalité, l'information des collaborateurs et l'analyse d'impact restent de la responsabilité de l'organisation (§17).*
 
-**En préparation :** les mesures sur GPU (RTX 5060 Ti) : comparaison des modèles, embedding multilingue, reranker, performances.
+**Validation sur GPU (§10) :** réponses 5 à 10 fois plus rapides sur une RTX 5060 Ti 16 Go, sans changement de qualité ni de sécurité. Méthode de mesure reproductible, choix des modèles mesurés (dont le modèle suisse Apertus), reranker évalué puis écarté, et le constat central : à ce stade, la qualité d'un RAG se gagne dans la construction du contexte et dans les documents, plus dans les réglages.
 
 **Inclus :**
 Guide décisionnel « IA locale pour PME suisse » (PDF, août 2026) et plan d'apprentissage RAG local en 15 phases (PDF, refondu septembre 2026 pour refléter la stack validée en lab). Les phases validées terrain sont reprises et approfondies dans les procédures opérationnelles publiées progressivement.

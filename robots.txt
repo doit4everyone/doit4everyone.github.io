@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Plans des sites : le portail, puis chaque projet publié sur GitHub Pages
+Sitemap: https://doit4everyone.github.io/sitemap.xml
+Sitemap: https://doit4everyone.github.io/ia-locale-pme-suisse/sitemap.xml
+Sitemap: https://doit4everyone.github.io/utmstack-lab/sitemap.xml
+Sitemap: https://doit4everyone.github.io/mvc-nlpd-m365/sitemap.xml
+Sitemap: https://doit4everyone.github.io/microsoft-purview-configuration-2026-nLPD/sitemap.xml
+Sitemap: https://doit4everyone.github.io/shadow-ai-governance-microsoft-365-nLPD/sitemap.xml
+Sitemap: https://doit4everyone.github.io/tips-lab/sitemap.xml
